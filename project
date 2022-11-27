@@ -280,6 +280,10 @@
                 padding: 20px;
                 margin: 40px;
             }
+            .lol
+            {
+                text-align: justify;
+            }
             #i4
             {
                 position: absolute;
@@ -472,6 +476,7 @@
             }
             #e5r
             {
+                font-size: 10px;
                 margin-top: 25px;
             }
 
@@ -635,7 +640,7 @@
                             <h4>
                                 SEO
                             </h4>
-                            <div id="so">
+                            <div id="so" class="lol">
                                 SEO is a set of practices designed to improve the appearance and positioning of web pages in organic search result.
                             </div>
                         </div>
@@ -653,7 +658,7 @@
                            <h4>
                                Youtube Marketing
                            </h4> 
-                           <div>
+                           <div class="lol">
                                Youtube marketing is a strategy that involves a powerful mix of tactics for promoting products/services or brands.
                            </div>
                         </div>
