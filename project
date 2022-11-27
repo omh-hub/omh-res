@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+        </script>
+        <script src="https://kit.fontawesome.com/aee6223962.js" crossorigin="anonymous">
+            
+        </script>
+        <style>
+            #head
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                height: 5%;
+            }
+            #img
+            {
+                position: relative;
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+            #r1
+            {
+                width: 30px;
+                height: 30px;
+            }
+            #list1
+            {
+                display: flex;
+                justify-content: flex-end;
+                width: 70%;
+                height: 10%;
+            }
+            li
+            {
+                padding: 7px;
+                display: inline-block;
+                list-style: none;
+            }
+            a
+            {
+                color: #0C0A5C;
+                text-decoration: none;
+            }
+            #a1
+            {
+                color: #FF9442;
+            }
+            #butt1
+            {
+                border-color: #FF9442;
+                border-radius: 40%;
+                background-color: #FF9442;
+                color: #FFFFFF;
+            }
+            #ul1
+            {
+                width: 60%;
+
+            }
+            #io
+            {
+                background-color: #F8F9FB;
+                color: #0C0A5C;
+                display: flex;
+                height: 40%;
+
+            }
+            #logo
+            {
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 130px;
+
+
+            }
+            #i1
+            {
+                width: 20%;
+                margin-bottom: 20px;
+                color: #0C0A5C;
+            }
+            #haki
+            {
+
+                width: 100%;
+            }
+            #hi
+            {
+                padding-top: 90px;
+                color: #FF9442;
+            }
+            #im2
+            {
+               position: relative;
+               width: 40%;
+               margin-right: 70px;
+            }
+            #img2
+            {
+                display: flex;
+                justify-content: flex-end;
+            }
+            #butt2
+            {
+                background-color: #FF9442;
+                border-radius: 35%;
+                color: #ffffff;
+                border-color: #FF9442;
+                margin-top: 30px;
+                width: 30%;
+                height: 7%;
+                margin-right: 20px;
+            }
+            #butt3
+            {
+                background-color: #F8F9FB;
+                border-radius: 35%;
+                color: #0C0A5C;
+                border-color: #FF9442;
+                margin-top: 30px;
+                width: 30%;
+                height: 7%;
+            }
+            #abs
+            {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 50px;
+                background-color: #ffffff;
+                position: absolute;
+                top: 470px;
+                 right: 75%;
+                 left: 25%;
+                 width: 590px;
+                 height: 120px;
+                 border: 1px solid #ffffff;
+                 border-radius: 30%;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                 
+                
+            }
+            #sy
+            {
+                flex: 0 1 30%;
+                display: flex;
+                color: #0C0A5C;
+                border-right: 1px solid #696969;
+
+            }
+            #i2
+            {
+                float: left;
+
+            }
+            #ex
+            {
+                float: bottom;
+                color: #FF9442;
+            }
+            #pr
+            {
+                flex: 0 1 35%;
+                display: flex;
+                color: #0C0A5C;
+                border-right: 1px solid #696969;
+            }
+            #co
+            {
+                float: bottom;
+                color: #FF9442;
+            }
+            #supp
+            {
+                flex: 0 1 30%;
+                display: flex;
+                color: #0C0A5C;
+            }
+            #on
+            {
+               float: bottom;
+                color: #FF9442;
+            }
+            .abt
+            {
+                display: flex;
+                
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            #im3
+            {
+                position: relative;
+                width: 200px;
+                height: 400px;
+                margin: 50px;
+            }
+            #intro
+            {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                background-color: #ffffff;
+                color: #0C0A5C;
+                margin: 100px;
+            }
+            .my
+            {
+                color: #FF9442;
+            }
+            #nm,#ph,#em
+            {
+                margin-top: 15px;
+
+
+            }
+
+            #s1
+            {
+                margin-left: 15px;
+                
+                
+            }
+            i
+            {
+                color: #ff9442;
+            }
+            #i3
+            {
+                padding-left: 10px;
+            }
+            #l
+            {
+                padding-left: 0px;
+
+            }
+            #spz
+            {
+                display: flex;
+                flex-wrap: wrap;
+                color: #0C0A5C;
+            }
+            #sp
+            {
+                text-align: center;
+                color: #ff9442;
+                width: 100% ;
+            }
+            #w
+            {
+                text-align: center;
+                width: 100%;
+            }
+            #mark
+            {
+                display: flex;
+                justify-content: space-between;
+           }
+            #seo,#yt
+
+            {
+                border: 1px solid #696969;
+                border-top-right-radius: 15%;
+                padding: 20px;
+                margin: 40px;
+                color: #0C0A5C;
+            }
+            #fb
+            {
+                border: 1px solid #ff9442;
+                border-top-right-radius: 15%;
+                background-color: #ff9442;
+                color: #ffffff;
+                padding: 20px;
+                margin: 40px;
+            }
+            #i4
+            {
+                position: absolute;
+                left: 70px;
+                top: 185%;
+            }
+            #i41
+            {
+                position: absolute;
+                left: 38%;
+                top: 185%;    
+            }
+            #i42
+            {
+                position: absolute;
+                right: 26%;
+                top: 185%;
+            }
+            #test
+            {
+                color: #0C0A5C;
+            }
+            #tst
+            {
+                text-align: center;
+                color: #ff9442;
+                width: 100%;
+            }
+            #myc
+            {
+                text-align: center;
+                width: 100%;
+            }
+            #ra
+            {
+                display: flex;
+            }
+            #im4
+            {
+                width: 5%;
+                height: 5%;
+                margin-left: 20px;
+                border-radius: 30%;
+                border-color: #ff9442;
+                float: left;
+            }
+            .ra
+            {
+                margin: 4%;       
+            }
+            #img4
+            {
+                display: flex;
+            }
+            #i5
+            {
+               float: right;
+            }
+            #rl
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+            }
+            #ff
+            {
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+                padding-bottom: 20px;
+            }
+            .mm
+            {
+                padding-left: 12px;
+            }
+            #butt4
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #btt4,#btt41
+            {
+                margin: 5px;
+                border-color: #696969;
+                background-color: #696969;
+                border-radius: 50%;
+            }
+            #btt4
+            {
+                background-color: #ff9442;
+                border-color: #ff9442;
+            }
+            #get
+            {
+                background-image: url("ea.svg");
+                color: #0C0A5C;
+            }
+            #ct
+            {
+                text-align: center;
+                color: #ff9442;
+                width: 100%;
+                margin-top: 50px;
+            }
+            #gt
+            {
+                text-align: center;
+                width: 100%;
+            }
+            #abl
+            {
+                display: flex;
+            }
+            #form
+            {
+                margin: 20px 30px 10px 40px ;
+                width: 50%;
+            }
+            .form
+            {
+                display: flex;
+            }
+            #in1,#in2,textarea
+            {
+                padding: 7px;
+                margin: 5px;
+                width: 50%;
+            }
+            #in2
+            {
+                width: 96%;
+            }
+            textarea
+            {
+                width: 96%;
+            }
+            #butt5
+            {
+                margin-top: 20px;
+                margin-left: 30px;
+                background-color: #ff9442;
+                border-color: #ff9442;
+                border-radius: 30%;
+                color: #ffffff;
+                width: 20%;
+                padding: 7px;
+            }
+            #haha
+            {
+                width: 40%;
+            }
+            #call
+            {
+                margin-left: 20px;
+                display: flex;
+                margin-top: 30px;
+            }
+            #i6
+            {
+                margin-right: 50px;
+            }
+            #om
+            {
+                color: #696969;
+                margin-top: 5px;
+            }
+            #fin
+            {
+                margin-top: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #0C0A5C;
+                color: #ffffff;
+                padding: 5%;
+            }
+            #im8
+            {
+                margin-left: 47%;
+                width: 4%;
+                height: 4%;
+            }
+            #sura
+            {
+                margin-bottom: 30px;
+                width: 100%;
+            }
+            #e5r
+            {
+                margin-top: 25px;
+            }
+
+            
+
+
+           
+        </style>
+        <title>firstProject</title></head>
+        <body>
+            <div id="container">
+                <div id="head">
+                    <div id="img">
+                        <img src="logo.png" id="r1"\>
+                    </div>
+                    <div id="list1">
+                        <ul id="ul1">
+                            <li id="li1">
+                              <a href="#head" id="a1"> home</a> 
+                            </li>
+                            <li>
+                              <a href="#intro"> My intro</a>
+                            </li>
+                            <li>
+                              <a href="#spz">services</a>  
+                            </li>
+                            <li>
+                               <a href="#test">protfolio</a> 
+                            </li>
+                            <li>
+                               <a href="">testimonial</a> 
+                            </li>
+                            <li>
+                               <a href="">blog</a> 
+                            </li>
+                            <li>
+                               <button id="butt1">Hire Me </button> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="io">
+                    <div id="logo">
+                       <i id="i1" class="fa-brands fa-facebook-f"></i>
+                       <i id="i1" class="fa-brands fa-twitter"></i>
+                       <i id="i1" class="fa-brands fa-linkedin-in"></i>
+                       <i id="i1" class="fa-brands fa-pinterest-p"></i>
+                    </div> 
+                    <div id="haki">
+                        <div id="hi">
+                            Hi , i am
+                        </div>
+                        <h1 id="name">
+                            Robert Graham
+                        </h1>
+                        <p id="markt" >
+                            <strong>Digital Marketing Expert</strong>
+                        </p>
+                        <div> 
+                           Actively researches digital marketing strategy, imorove lead/ revenue generation and marketing plans
+                        </div>
+                        <button id="butt2">
+                           <strong> Download CV</strong>
+                        </button>
+                        <button id="butt3">
+                           <strong>  Contact Me</strong>
+                        </button>       
+                           
+                    </div>  
+                    <div id="img2">
+                        <img src="omar.png" id="im2" \>
+                    </div> 
+                </div>
+                <div id="abs">
+                    <div id="sy" style="order: 1">
+                        <i class="fa-solid fa-medal" id="i2"></i>
+                        <p id="ys">
+                           <strong> 5 Years Job </strong>
+                        </p>
+                        <span id="ex">
+                            Experience
+                        </span>
+                    </div>
+                    <div id="pr" style="order: 2">
+                        <i class="fa-solid fa-clipboard-list" id="i2"></i>
+                        <p id="pj">
+                           <strong> 300+ Projects </strong>
+                        </p>
+                        <span id="co">
+                            Completed
+                        </span>    
+                    </div>
+                    <div id="supp" style="order: 3">
+                        <i class="fa-sharp fa-solid fa-headset" id="i2"></i>
+                        <p id="su">
+                           <strong> Support </strong>
+                        </p>
+                        <span id="on" >
+                            Online 24/7
+                        </span>
+                    </div>
+
+                </div>   
+                <div class="abt">
+                    <div class="img3">
+                        <img src="about.png"\ id="im3">
+                    </div>
+                    <div id="intro">
+                        <div class="my">
+                            My intro
+                        </div>
+                        <h1>
+                            <strong> About Me </strong>
+                        </h1>
+                        <div>
+                            i'm a marketing professional with 4+ years of experience in 
+                            brand development and graphic design. I have extensive knowledge 
+                            of modern print capabilities and signage of all types. I constantly
+                            push myself to break a sweat- physically intellectually, and interpersonally.
+                        </div>
+                            <div id="nm">
+                                <i class="fa-sharp fa-solid fa-user-large" ></i> <span id="i3"><strong>Name</strong> </span> &nbsp &nbsp <span>:</span> &nbsp &nbsp <span>Robert Graham</span>
+                            </div>
+                             <div id="ph">
+                                <i class="fa-sharp fa-solid fa-phone" ></i><span id="i3"><strong>phone</strong> </span> &nbsp &nbsp <span>:</span> &nbsp &nbsp <span>999 - 999 -9999</span>
+                            </div>
+                             <div id="em">
+                                <i class="fa-sharp fa-solid fa-envelope" ></i> <span id="i3"><strong>Email</strong> </span> &nbsp &nbsp <span>:</span> &nbsp &nbsp <span>robert_graham@marketing.me</span>
+                            </div>
+                        <div id="intr">
+                            <h4>
+                                My Interests
+                            </h4>
+                            <ul id="l">
+                                <li >
+                                    <i class="fa-solid fa-headphones"></i> <span id="s1">Muisic</span>
+                                </li>
+                                <li>
+                                    <i class="fa-duotone fa-suitcase-rolling"></i><span id="s1">Travel</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-film"></i><span id="s1">Movie</span>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-solid fa-camera"></i><span id="s1">Photo</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div id="spz">
+                    <div id="sp">
+                        Specialized In
+                    </div>
+                    <h1 id="w">
+                        What I Offer
+                    </h1>
+                    <div id="mark">
+                        <div id="seo">
+                            <i class="fa-solid fa-chart-line" id="i4"></i>
+                            <h4>
+                                SEO
+                            </h4>
+                            <div id="so">
+                                SEO is a set of practices designed to improve the appearance and positioning of web pages in organic search result.
+                            </div>
+                        </div>
+                        <div id="fb">
+                            <i class="fa-sharp fa-solid fa-bullhorn" id="i41"></i>
+                            <h4 id="fc">
+                                Facebook Marketing
+                            </h4>
+                            <div id="fk">
+                                Facebook marketing is the practice of promoting a business and brand on facebook. It can help businesses build brand awareness.
+                            </div>
+                        </div>
+                        <div id="yt">
+                            <i class="fa-brands fa-square-youtube" id="i42"></i>
+                           <h4>
+                               Youtube Marketing
+                           </h4> 
+                           <div>
+                               Youtube marketing is a strategy that involves a powerful mix of tactics for promoting products/services or brands.
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="test">
+                    <div id="tst">
+                        Testimonial
+                    </div>
+                    <h1 id="myc">
+                        My Client Saying
+                    </h1>
+                    <div id="ra">
+                        <div class="ra">
+                            <div id="img4">
+                                <img src="alo.jpg" id="im4"\>
+                                <div id="rl">
+                                    <div id="ff">
+                                        <strong>Raul K. Smith</strong> 
+                                        <span id="cl"><em>client</em></span>
+                                    </div>
+                                     <div id="i5">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mm">
+                              "My goal in 2018nwas to blog more regularly, which I was struggeling to do. Write It Don't Fight It came along at just the right time."  
+                            </div>
+                        </div>
+                        <div class="ra">
+                            <div id="img4">
+                                <img src="hello.jpg" id="im4"\>
+                                <div id="rl">
+                                    <div id="ff">
+                                        <strong>Asib Uz Zaman</strong> 
+                                        <div id="cl"><em>client</em></div>
+                                    </div>
+                                    <div id="i5">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="mm">
+                              "For decades I have been trying to break through my barriers to writing, always with meager results. But there is something about your approach that works."
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="butt4">
+                            <button id="btt4" type="cercle">
+                                
+                            </button>
+                            <button id="btt41" type="cercle">
+                                
+                            </button>
+                            <button id="btt41" type="cercle">
+                                
+                            </button>
+                        </div>
+                </div>
+                <div id="get">
+                    <div id="ct">
+                        Contact Us
+                    </div>
+                    <h1 id="gt">
+                        Get In Touch
+                    </h1>
+                    <div id="abl">
+                        <div id="form">
+                            <form>
+                            <div class="form">
+                                <input type="text" name="name" placeholder="Name" id="in1">
+                                <input type="text" name="Email" placeholder="Email" id="in1">
+                            </div>
+                            <div id="sub">
+                                <input type="text" name="subject" placeholder="Subject" id="in2">
+                            </div>
+                            <div>
+                                <textarea name="Message" placeholder="Message" cols="70" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <button id="butt5" onclick="verf()"><strong>Send Message</strong></button>
+                            </div>    
+                        </div>
+                        <div id="haha">
+                            <div id="call">
+                                <i class="fa-solid fa-phone" id="i6"></i>
+                                <div class="call">
+                                    <div>
+                                        <strong>Call Me</strong>
+                                    </div>
+                                    <div id="om">
+                                        999 - 999 - 9999
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="call">
+                                <i class="fa-solid fa-envelope" id="i6"></i>
+                                <div class="call" >
+                                    <div>
+                                        <strong>Email</strong>
+                                    </div>
+                                    <div id="om">
+                                        robert_graham@marketing.me
+                                    </div>
+                                </div>
+                            </div>
+                             <div id="call">
+                                <i class="fa-solid fa-location-dot" id="i6"></i>
+                                <div class="call">
+                                    <div>
+                                        <strong>Location</strong>
+                                    </div>
+                                    <div id="om">
+                                        474 Central Road
+                                    </div>
+                                    <div id="om">
+                                        New York
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fin">
+                    <div id="sura">
+                        <img src="logo.png" id="im8">
+                    </div>
+                    <div>
+                      Actively researches digital marketing strategy, improve <br> lead/ revenue generation and marketing plans.  
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-twitter"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="e5r">
+                        @ 2022 Interphase All Rights Reserved
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </body>
+</html>        
