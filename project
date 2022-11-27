@@ -380,7 +380,7 @@
             }
             #get
             {
-                background-image: url("ea.svg");
+                background-image: url("https://raw.githubusercontent.com/omh-hub/omh-res/776daf982c17dc5cbb095757f7b836b5cdac7471/ea.svg");
                 color: #0C0A5C;
             }
             #ct
@@ -490,7 +490,7 @@
             <div id="container">
                 <div id="head">
                     <div id="img">
-                        <img src="logo.png" id="r1"\>
+                        <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/logo.png" id="r1"\>
                     </div>
                     <div id="list1">
                         <ul id="ul1">
@@ -547,7 +547,7 @@
                            
                     </div>  
                     <div id="img2">
-                        <img src="omar.png" id="im2" \>
+                        <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/omar.png" id="im2" \>
                     </div> 
                 </div>
                 <div id="abs">
@@ -582,7 +582,7 @@
                 </div>   
                 <div class="abt">
                     <div class="img3">
-                        <img src="about.png"\ id="im3">
+                        <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/about.png"\ id="im3">
                     </div>
                     <div id="intro">
                         <div class="my">
@@ -674,7 +674,7 @@
                     <div id="ra">
                         <div class="ra">
                             <div id="img4">
-                                <img src="alo.jpg" id="im4"\>
+                                <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/alo.jpg" id="im4"\>
                                 <div id="rl">
                                     <div id="ff">
                                         <strong>Raul K. Smith</strong> 
@@ -695,7 +695,7 @@
                         </div>
                         <div class="ra">
                             <div id="img4">
-                                <img src="hello.jpg" id="im4"\>
+                                <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/hello.jpg" id="im4"\>
                                 <div id="rl">
                                     <div id="ff">
                                         <strong>Asib Uz Zaman</strong> 
@@ -794,7 +794,7 @@
                 </div>
                 <div id="fin">
                     <div id="sura">
-                        <img src="logo.png" id="im8">
+                        <img src="https://raw.githubusercontent.com/omh-hub/omh-res/main/logo.png" id="im8">
                     </div>
                     <div>
                       Actively researches digital marketing strategy, improve <br> lead/ revenue generation and marketing plans.  
